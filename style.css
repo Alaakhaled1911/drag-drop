@@ -1,0 +1,94 @@
+*{
+    padding:0 ;
+margin:0 ;
+font-family: sans-serif;
+}
+body{
+   
+    background-color: rgb(189, 219, 203);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+gap: 45px;
+}
+.inputs{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+border-radius: 24px;
+width: 300px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:20px  ;
+}
+.inputs h2{
+    font-size: 22px;
+    color: #000089;
+    
+
+}
+.data{
+    display: flex;
+flex-direction: column;
+width: 80%;
+gap: 4px;
+}
+.data input {
+    outline: none;
+    border: 1px solid rgb(189, 219, 203) ;
+}
+.data button{
+    background-color: rgb(189, 219, 203);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:5px ;
+}
+.list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .box{
+    background-color: white;
+    color: #000089;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+  
+  }
+  .box .item{
+    background-color: rgb(189, 219, 203);
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    cursor: move;
+
+  }
+  @media (max-width:770px)
+  {
+    .box{
+        width:60px ;
+        font-size:18px ;
+    }
+    
+    
+  }
+  @media (max-width:770px)
+  {
+    
+   
+    .inputs{
+        width:250px ;
+    }
+
+
+  
+    
+  }
